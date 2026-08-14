@@ -76,7 +76,7 @@ nav ul li:hover {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  padding: 110px 0 2rem;
+  padding: 0 0 2rem;
 }
 
 .title-compart {
@@ -776,10 +776,10 @@ button {
 
 /* _formElements.scss */
 :root {
-  --ff-gothic: "NS-Neo", sans-serif;
-  --ff-sans: "SUIT", sans-serif;
-  --ff-serif-kr: "";
-  --ff-serif-en: "Suez One", serif;
+  --ff-gothic: 'NS-Neo', sans-serif;
+  --ff-sans: 'SUIT', sans-serif;
+  --ff-serif-kr: '';
+  --ff-serif-en: 'Suez One', serif;
   --bdr-form-outer: .9rem;
   --bdr-form-inner: .65rem;
   --bdr-form-element-lg: .75rem;
@@ -1536,8 +1536,7 @@ dialog .labeled-input-binder {
   max-width: 20rem;
   border-radius: 0.25rem;
   background-color: rgba(255, 255, 255, 0.5);
-  -webkit-backdrop-filter: blur(0.25rem);
-          backdrop-filter: blur(0.25rem);
+  backdrop-filter: blur(0.25rem);
   outline: 1px solid rgba(58, 78, 132, 0.1);
 }
 .custom-select-option-list > ul {
@@ -1825,7 +1824,7 @@ dialog .labeled-input-binder {
 
 @media screen and (max-width: 800px) {
   #wrap {
-    padding-top: 3rem;
+    padding-top: 0.5rem;
   }
   .primary-nav-item.active::before {
     inset-block: auto;

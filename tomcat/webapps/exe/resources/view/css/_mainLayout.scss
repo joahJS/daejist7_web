@@ -301,7 +301,8 @@
 
 @media screen and (max-width: 800px) {
     #wrap {
-        padding-top: 3rem;
+        // padding-top: 3rem;
+        padding-top: 0.5rem;
     }
 
     .primary-nav-item.active::before {
